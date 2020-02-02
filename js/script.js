@@ -44,6 +44,6 @@ for (const key in obj) {
         }   
     }    
 }
-console.log(`Вы заказали${product} - Общая сумма ${sum} с доставкой ${dostavka}`);
+console.log(`Вы заказали${product} - Общая сумма ${sum+dostavka} с доставкой ${dostavka}`);
 
 // console.log(info1);
